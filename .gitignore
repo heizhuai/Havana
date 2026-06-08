@@ -1,0 +1,99 @@
+# Unreal Engine .gitignore
+
+# Binaries and build artifacts
+Binaries/
+Build/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# Visual Studio / Rider
+.vs/
+*.sln
+*.suo
+*.user
+*.sln.docstates
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+*.swp
+
+# Unreal specific
+*.pdb
+*.idb
+*.aps
+*.res
+*.rsp
+*.pgc
+*.pgd
+*.meta
+*.tlog
+*.log
+*.manifest
+*.lastbuildstate
+*.sbr
+*.sup
+*.vcproj.*.user
+*.vcxproj.filters
+*.vspx
+*.vsp
+*.scc
+*.htm
+*.html
+*.ASP
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.tl_i
+*.rsp
+_encoder.err
+_encoder.out
+*_i.c
+*_p.c
+*.ncb
+*.aps
+*.res
+*.rsp
+*.sbr
+*.tlb
+*.tlh
+*.tl_i
+*.pgc
+*.pgd
+*.meta
+*.tlog
+*.log
+*.manifest
+*.lastbuildstate
+
+# Blueprint compiled files
+*.uasset_
+*_Backup_*
+
+# Config local overrides
+Config/Local*
+Saved/Config/
+
+# Plugin build artifacts
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/Saved/
+
+# Package/Release
+Releases/
+Packaged/
+ArchivedBuilds/
+
+# npm / node (if any tooling uses it)
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+Logs/
