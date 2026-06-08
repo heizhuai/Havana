@@ -97,3 +97,6 @@ __pycache__/
 # Logs
 *.log
 Logs/
+
+# WorkBuddy project memory
+.workbuddy/
