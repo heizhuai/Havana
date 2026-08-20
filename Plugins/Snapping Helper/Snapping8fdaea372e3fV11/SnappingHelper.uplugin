@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.44",
+	"FriendlyName": "SnappingHelper",
+	"Description": "A tool to help transform actors",
+	"Category": "Editor",
+	"CreatedBy": "UsefulCode",
+	"CreatedByURL": "",
+	"DocsURL": "https://drive.google.com/file/d/1VkSfInnGTqfA9jQlK-CyMLGCf2Ig2UM8/view?usp=sharing",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1e0699cf59d64105957b4aa40f367252",
+	"SupportURL": "",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "SnappingHelper",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		}
+	]
+}
